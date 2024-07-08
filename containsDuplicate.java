@@ -5,6 +5,7 @@ public class containsDuplicate{
         System.out.println("Enter the length of array: ");
         int len=sc.nextInt();
         int arr[]=new int[len];
+        System.out.println("Enter the array: ");
         for(int i=0;i<len;i++){
             arr[i]=sc.nextInt();
         }
