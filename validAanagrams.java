@@ -12,6 +12,7 @@ public class validAanagrams {
         else{
             System.out.println("The given two strings are not anagrams.");
         }
+        sc.close();
     }
     public static boolean isValid(String s1, String s2){
         if(s1.length()!=s2.length()){

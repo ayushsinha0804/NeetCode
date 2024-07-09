@@ -17,6 +17,7 @@ public class twoSum {
         else{
             System.out.println("No such pair exists.");
         }
+        sc.close();
     }
     public static boolean isTwoSum(int arr[], int num){
         HashSet<Integer> se=new HashSet<>();
