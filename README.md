@@ -1,1 +1,1 @@
-All of NeetCode algorithms in Java
+All of NeetCode algorithms.
