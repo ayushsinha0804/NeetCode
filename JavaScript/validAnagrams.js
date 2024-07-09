@@ -1,3 +1,6 @@
+//to execute the code, paste the code given below in comments to the checker.html file
+//<script src="validAnagrams.js"></script>
+
 let s="rose";
 let t="ores";
 function checkAnagrams(s,t){
