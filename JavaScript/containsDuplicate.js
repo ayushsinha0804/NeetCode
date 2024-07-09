@@ -1,3 +1,6 @@
+//to execute the code, paste the code given below in comments to the checker.html file
+//<script src="containsDuplicate.js"></script>
+
 let arr=[1,2,3,1];
 let c= containsDuplicates(arr);
 function containsDuplicates(arr)
