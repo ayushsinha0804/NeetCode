@@ -1,3 +1,6 @@
+//to execute the code, paste the code given below in comments to the checker.html file
+//<script src="productExceptSelf.js"></script>
+
 let nums=[2,0,3,4];
 function arrayeself(nums){
     let prod=1;
