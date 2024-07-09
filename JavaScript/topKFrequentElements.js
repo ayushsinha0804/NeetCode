@@ -1,3 +1,6 @@
+//to execute the code, paste the code given below in comments to the checker.html file
+//<script src="topKFrequentElements.js"></script>
+
 let nums=[1,1,1,1,2,2,2,2,2,2,3,3,3,3,3];
 let k=3;
 function topKfreq(nums,k){
