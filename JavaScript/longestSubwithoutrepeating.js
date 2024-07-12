@@ -1,23 +1,20 @@
 let s="abcabcbb";
-let c= function(s){
-    let long='';
-    let check=set();
-    let note=0;
-    for(let i=0;i<s.length;i++){
-        let char =s[i];
-        if(!check.has(char)){
-            check.add(char);
-            if(check.length==1){
-                note=i;
-            }
+let c= function(str){
+    let max=0;
+    let set=new Set();
+    let left=0;
+    let right=0;
+    while(right<str.length){
+        if(!set.has(str[right])){
+            set.add(str[right]);
+            max=Math.max(max,(right-left+1));
+            right++;
         }
         else{
-            if(check.length>long.length){
-                long=check.join('');
-            }
-            i=note+1;
+            set.delete(str[left]);
+            left++;
         }
     }
-    return long;
+    return max;
 }
 document.write(c(s));
